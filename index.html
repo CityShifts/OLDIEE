@@ -346,12 +346,25 @@ Coming for the ride...?
               <a href="mailto:info@oldiee.co.uk" class="text-accent hover:underline">info@oldiee.co.uk</a>.
             </p>
             <br>
-            <a href="https://www.buymeacoffee.com/oldiee" target="_blank" style="display: inline-block;">
-              <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
-                   alt="Buy Me A Coffee" 
-                   style="height: 60px !important; width: 217px !important; display: block; 
-                          animation: wobble 1.5s ease-in-out infinite; transition: transform 0.3s;">
-          </a>
+            <style>
+              html {
+                  background-color: #252525;
+              }
+      
+              .bmc-widget {
+                  position: fixed;
+                  bottom: 18px;
+                  right: 18px;
+                  z-index: 1000;
+              }
+          </style>
+      </head>
+      <body>
+          <section>
+              <div class="bmc-widget">
+                  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="oldiee" data-description="Support me on Buy me a coffee!" data-message="Want to support the channel? You can by buying me a Coffee" data-color="#FFDD00" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+              </div>
+          </section>
           
           <style>
           @keyframes wobble {
@@ -363,8 +376,6 @@ Coming for the ride...?
               100% { transform: rotate(0deg); }
           }
           </style>
-           <br>
-            <p>Want to support the channel? You can by buying me a Coffee </p>
           </div>        
         
           <!-- Latest Videos Section -->
